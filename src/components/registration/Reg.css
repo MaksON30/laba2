@@ -1,0 +1,114 @@
+.registration-right{
+width: 624px;
+height: 691px;
+background-color:#1C1E53;
+}
+.registration{
+    margin-top: 128px;
+    display: flex;
+    justify-content: center;
+    
+}
+.registration-left-img {
+    width:656px;
+    height: 691px;
+    background-image: url("./woman.jpg");
+
+}
+.registration-left-img-fon{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 30, 83, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+ 
+}
+.registration-left-img-fon h1{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 54px;
+color: #FFFFFF;
+margin:96px 0px 0px 96px;
+}
+.registration-left-img-fon p {
+    font-family: 'Poppins';
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+margin-left: 96px;
+}
+.registration-button{
+    padding:1rem 150px;
+    background-color: #FCD980;
+border-radius: 41px;
+border-style: hidden;
+cursor: pointer;
+margin-top: 40px;
+
+}
+.registration-button:hover{
+    background-color: #FDE4A6;
+}
+.registration-right{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.registration-right-container{
+    max-width: 432px;
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.registration-right-header h5{
+    margin:0;
+    font-family: 'Poppins';
+font-weight: 500;
+font-size: 32px;
+color: #FFFFFF;
+}
+.registration-right-header p {
+    font-family: 'Poppins';
+font-weight: 500;
+font-size: 16px;
+color: #F4F6FC;
+}
+.registration-right-header{
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+}
+.registration-right-inputs {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-top: 40px;
+}
+.registration-right-inputs input{
+    background-color: #1C1E53;
+    border: 1.5px solid rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+    padding: 18px;
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+color: #F4F6FC;
+opacity: 0.5;
+width: 432px;
+}
+.registration-right-container a {
+text-decoration: none;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 18px;
+color: #FFFFFF;
+cursor: pointer;
+}
+.registration-right-container-footer{
+    margin-top: 28px;
+    display: flex;
+    align-items:center;
+    gap:1rem;
+}
